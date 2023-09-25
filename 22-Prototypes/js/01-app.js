@@ -7,18 +7,18 @@
 // Object literal, que es algo asi:
 // Esta forma aunque es la más común, también es menos dinamica..
 const cliente = {
-    nombre: 'Juan',
-    saldo: 500
+  nombre: 'luis',
+  saldo: 500
 }
 
 // Si necesitas añadir o crear un objeto reutilizable tienes que utilizar un constructor de función
 
 // En JavaScript hoy en día tenemos classes, pero previamente la programación porientada aobjetos era de la siguiente forma:
 function Cliente(nombre, saldo) {
-    this.nombre = nombre;
-    this.saldo = saldo;
+  this.nombre = nombre
+  this.saldo = saldo
 }
 
-const juan = new Cliente('Juan', 400);
+const luis = new Cliente('luis', 400)
 
-console.log(juan); // Puedes ver que si expandimos juan en la consola tenemos algo llamado el Prototype...
+console.log(luis) // Puedes ver que si expandimos luis en la consola tenemos algo llamado el Prototype...

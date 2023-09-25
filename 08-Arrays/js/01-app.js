@@ -19,7 +19,7 @@ const deTodo = [
   true,
   'si',
   null,
-  { nombre: 'Juan', trabajo: 'Programador' },
+  { nombre: 'luis', trabajo: 'Programador' },
   [1, 2, 3, 4]
 ]
 console.log(deTodo)
