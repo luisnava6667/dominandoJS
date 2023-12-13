@@ -1,0 +1,19 @@
+{
+  "name": "51-testing-jest",
+  "version": "1.0.0",
+  "description": "aprendiendo jest",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Luis Navarro",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-env": "^7.23.5",
+    "jest": "^29.7.0",
+    "jsdom": "^23.0.1"
+  },
+  "dependencies": {
+    "jest-environment-jsdom": "^29.7.0"
+  }
+}
